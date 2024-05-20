@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Make a fearless start with security testing workshop</title>
+</head>
+
+<body class='typora-export os-windows'>
+    <div class='typora-export-content'>
+        <div id='write' class=''>
+            <h1>Make a Fearless start with Security testing workshop</h1>
+
+            <p>
+                You have succesfully connected to the locally hosted workshop materials.
+            </p>
+            <p>
+                This page contains all the links you need throughout the workshop. Please limit your hacking attempts to the test webshop.
+            </p>
+
+            <h2>The test webshop</h2>
+            <p>
+                The webshop we're using is made by OWASP. All exercises can be solved without access to the source code, but it can make your life easier. You can find the source code here: <a href="https://github.com/juice-shop/juice-shop">https://github.com/juice-shop/juice-shop</a>
+            </p>
+            <div class="button_primary">
+                <a href="/" onclick="javascript:event.target.port=3000">Open test webshop</a>
+            </div>
+            <p>
+                Or, navigate to <code>http://juice-shop.local:3000</code>
+            </p>
+
+            <h2>Automated reports</h2>
+
+            <p>
+                ⚠️ The reports contain spoilers. Please refrain from peeking before the reports are explicitly mentioned.
+            </p>
+
+            <h3>Attack report</h3>
+
+            <div class="button_secondary">
+                <a href="./reports/zap-report-juice-shop.html">Open automated attack report</a>
+            </div>
+
+            <p>
+                This report has been generated with OWASP ZAP.
+            </p>
+            <blockquote>
+                ZAP (short for Zed Attack Proxy), formerly known as OWASP ZAP, is an open-source web application security scanner. It is intended to be used by both those new to application security as well as professional penetration testers.
+            </blockquote>
+
+            <h3>Code analysis report</h3>
+
+            <div class="button_secondary">
+                <a href="./reports/sonarqube-report-juice-shop.html">Open code analysis report</a>
+            </div>
+
+            <p>
+                This report has been generated with SonarQube.
+            </p>
+            <blockquote>
+                Sonar's static application security testing (SAST) engine detects security vulnerabilities in your code so they can be eliminated before you build and test your application.
+            </blockquote>
+
+            <h3>Dependency audit report</h3>
+
+            <div class="button_secondary">
+                <a href="./reports/npm-audit-juice-shop.log">Open dependency audit report</a>
+            </div>
+
+            <p>
+                This report has been generated with NPM audit.
+            </p>
+            <blockquote>
+                The audit command submits a description of the dependencies configured in your project to your default registry and asks for a report of known vulnerabilities.
+            </blockquote>
+        </div>
+    </div>
+</body>
+
+</html>
